@@ -1,4 +1,10 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:'roboto', sans-serif;
+}
 :root {
     --principal: #660027;
 }
@@ -22,7 +28,7 @@ footer {
 main {
     width: 1200px;
     margin: auto;
-    font-family:'roboto', sans-serif;
+    
 }
 
 header {
@@ -77,7 +83,7 @@ nav {
 .cards {
     margin-top: 83px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 fieldset {
