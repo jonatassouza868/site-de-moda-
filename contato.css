@@ -1,0 +1,92 @@
+:root {
+    --principal: #660027;
+}
+
+
+main {
+    width: 1200px;
+    margin: auto;
+    font-family:'roboto', sans-serif;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+img {
+
+    width: 155px;
+    height: 70px;
+
+}
+
+nav {
+    display: flex;
+    font-size: 15px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs input {
+    width: 400px;
+    height: 42px;
+    margin-bottom: 29px;
+}
+
+.mensagem{
+   height: 125px;
+    width: 400px;
+}
+
+button {
+    background-color: var(--principal);
+    color: white;
+    width: 128px;
+    height: 42px;
+    margin-top: 34px;
+}
+
+fieldset {
+    margin-top: 48px;
+    width: 780px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: var(--principal);
+    width: 400px;
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+.navs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
